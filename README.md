@@ -1,10 +1,8 @@
-# template
+# AutoPagerize
 
-[![Build Status](https://travis-ci.org/wedata/template.png?branch=master)](https://travis-ci.org/wedata/template)
+[![Build Status](https://travis-ci.org/wedata/AutoPagerize.png?branch=master)](https://travis-ci.org/wedata/AutoPagerize)
 
-- a template for wedata/database
-- Fork it to create a new database
-- You must edit this README.md, package.json and items.json.
+SITOINFOs for AutoPagerize
 
 ## Data Scheme
 

@@ -1,7 +1,11 @@
 [
 {
-  "name" : "",
+  "name" : "Tumblr dashboard to deeper",
   "data" : {
+    "url"          : "^http://www\\.tumblr\\.com/(?:dashboard|blog|tagged|like|show)",
+    "nextLink"     : "id(\"next_page_link\")",
+    "insertBefore" : "",
+    "pageElement"  : "id(\"posts\")/li[div[starts-with(@id, \"post_\")]]"
   }
 }
 ]
