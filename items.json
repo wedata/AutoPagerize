@@ -7,5 +7,14 @@
     "insertBefore" : "",
     "pageElement"  : "id(\"posts\")/li[div[starts-with(@id, \"post_\")]]"
   }
+},
+{
+  "name" : "楽天ショップ検索",
+  "data" : {
+    "url":          "^http://search\\.rakuten\\.co\\.jp/search/mall/",
+    "nextLink":     "//div[@class=\"rsrPagination\"]/span[@class=\"thisPage\"]/following-sibling::a",
+    "pageElement":  "//div[contains(concat(\" \",normalize-space(@class),\" \"), \" rsrSResultSect \")]",
+    "exampleUrl":   "http://search.rakuten.co.jp/search/mall/電子レンジ圧力鍋/-/"
+  }
 }
 ]
