@@ -6,6 +6,9 @@ SITOINFOs for AutoPagerize
 
 ## Data Scheme
 
+[AutoPagerize Wiki: Details of SITEINFO (ja)](http://autopagerize.jottit.com/details_of_siteinfo_%28ja%29)  
+Cf.) An issue [#3](https://github.com/wedata/AutoPagerize/issues/3#issuecomment-30013637)
+
 ## Contributing
 
 1. Fork it.
