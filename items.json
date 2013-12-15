@@ -16,5 +16,14 @@
     "pageElement":  "//div[contains(concat(\" \",normalize-space(@class),\" \"), \" rsrSResultSect \")]",
     "exampleUrl":   "http://search.rakuten.co.jp/search/mall/電子レンジ圧力鍋/-/"
   }
+},
+{
+  "name" : "Gunosy",
+  "data" : {
+    "url"          : "^http://gunosy\\.com",
+    "nextLink"     : "id('date_picker')//li[a[@href=substring-after(//meta[@property='og:url']/@content,'http://gunosy.com')]]/following::li[a[not(@href='#')]][1]/a",
+    "insertBefore" : "",
+    "pageElement"  : "id('container')"
+  }
 }
 ]
