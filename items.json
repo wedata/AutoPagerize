@@ -25,5 +25,23 @@
     "insertBefore" : "",
     "pageElement"  : "id('container')"
   }
+},
+{
+  "name" : "pplog my posts [過去のポエム]",
+  "data" : {
+    "url"          : "^https://www\\.pplog\\.net/my/posts",
+    "nextLink"     : "//a[@rel='next']",
+    "insertBefore" : "",
+    "pageElement"  : "//div[@class='container body']/div"
+  }
+},
+{
+  "name" : "pplog my favorites [つけたあしあと]",
+  "data" : {
+    "url"          : "^https://www\\.pplog\\.net/my/favorites",
+    "nextLink"     : "//a[@rel='next']",
+    "insertBefore" : "",
+    "pageElement"  : "//ul[@class='favorites']"
+  }
 }
 ]
